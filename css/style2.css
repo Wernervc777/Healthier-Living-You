@@ -1,0 +1,76 @@
+body {
+    
+    background-color: #f9c5d5;
+    text-align: center;
+}
+.row{
+    margin-right: 0px;
+}
+.container-fluid {
+    padding: 1% 0% 1% 0%;
+    font-family: 'Playfair Display', serif; 
+}
+/* Nab-bar */
+
+.navbar {
+    padding: 0% 1% 0% 1%;
+    background-color: #f2789f;
+}
+.navbar-brand {    
+    
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: black;
+    padding-left: 5%;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.8rem;    
+    font-weight: 100  ;
+    color:black;
+ }
+
+ /* <!-- Carousel banner --> */
+
+.resize {
+    width: 1349px;
+    height: 527px;
+    max-height: 100%px;
+    max-width: 100%;    
+}
+
+@media (max-width: 1028px) {
+.resize {
+    transform: scale(0.75,0.75);
+}
+}
+
+/* <!-- Frontpage images and Description --> */
+
+#bottem-images{
+    background-color: #f999b7;
+}
+.title-image1{
+    width: 100%;
+    padding-top: 10%;
+    border-radius: 10% / 50%;
+    
+}
+.title-image2{
+    width: 100%;
+    padding-top: 10%;
+    border-radius: 10% / 50%;;
+    
+}
+.title-image3{
+    width: 75%;
+    padding-top: 10%;
+    border-radius: 10% / 50%;
+}
+/* Footer */
+.footer{
+    padding: 1% 2% 1% 2%; 
+    background-color: #fee3ec;   
+}
